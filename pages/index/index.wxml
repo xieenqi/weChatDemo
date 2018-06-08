@@ -11,5 +11,11 @@
     <text class="user-motto">{{motto}}</text>
   </view>
   <text class='custom'>{{custom}}</text>
-  <button bindtap='click1'>点击改变上面文字</button>
+  <!-- key 以bind或catch开头，然后跟上事件的类型，如bindtap、catchtouchstart。
+  自基础库版本 1.5.0 起，bind和catch后可以紧跟一个冒号，其含义不变，
+  如bind:tap、、catch:touchstart。
+  value 是一个字符串，需要在对应的 Page 中定义同名的函数。不然当触发事件的时候会报错。 -->
+  <button id='but1' bindtouchend='click1' style='margin:10rpx'>点击改变上面文字</button>
+
+  <view data-alpha-beta="1" data-alphaBeta=''>DataSet Test测试</view>
 </view>

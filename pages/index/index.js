@@ -12,9 +12,9 @@ Page({
   
   },
   //button的点击事件
-  click1: function (event) {
+  click1: function (eve) {
     this.setData({ custom: "点击过后设置的文字111111111111111111115555555555555555555" })
-    console.log(event)
+    console.log(eve)
   },
 
   //事件处理函数
