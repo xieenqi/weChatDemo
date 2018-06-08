@@ -10,5 +10,6 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <text >vdosv自己的测试文字vdosv自己的测试文字vdosv自己的测试文字vdosv自己的测试文字vdosv自己的测试文字</text>
+  <text class='custom'>{{custom}}</text>
+  <button bindtap='click1'>点击改变上面文字</button>
 </view>

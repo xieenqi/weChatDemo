@@ -1,4 +1,5 @@
 /**index.wxss**/
+
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -8,7 +9,7 @@
 .userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
-  margin: 20rpx;
+  margin: 10rpx;
   border-radius: 30%;
 }
 
@@ -17,5 +18,12 @@
 }
 
 .usermotto {
-  margin-top: 80px;
+  margin-top: 20rpx;
+}
+
+.custom {
+  text-align: center;
+  background: #52cccc;
+  margin: 5rpx;
+  padding: 6rpx;
 }
